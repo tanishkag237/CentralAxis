@@ -34,7 +34,7 @@ const Hero = () => {
             <div className="bg-[rgb(139,92,246)] p-4 text-center inline-block hover:bg-[rgb(124,58,237)]">
               <Link
                 className="text-white font-thin px-30 py-0.5 inline-block "
-                href={""}
+                href={"https://calendly.com/margarita-centralaxis/30min?month=2025-05"}
               >
                 Request Demo
               </Link>

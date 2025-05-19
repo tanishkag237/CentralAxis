@@ -44,13 +44,13 @@ export default function VideoBanner({
 
         <div
           className={cn(
-            "relative z-20 flex flex-col px-6 py-12 text-white h-full w-full",
+            "relative z-20 flex flex-col px-4 py-10 text-white h-full w-full",
             positionStyles[position]
           )}
         >
           <div>
             <div className="text-2xl md:text-2xl font-semibold mb-2">{heading}</div>
-            <div className="text-sm md:text-base max-w-3xl font-light mb-4">{subtext}</div>
+            <div className="text-sm md:text-base max-w-5xl font-light mb-3">{subtext}</div>
             {buttonContent}
           </div>
         </div>

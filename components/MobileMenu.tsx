@@ -9,42 +9,55 @@ import { useState } from "react"
     {
       label: "Data Center Infrastructure Management",
       links: [
-        { name: "Monitoring Devices", href: "/dashboard" },
-        { name: "Asset Tracking", href: "/" },
-        { name: "Network Management", href: "/" },
-        { name: "Change Management", href: "/" },
-        { name: "Colocation Management", href: "/" },
-        { name: "Management", href: "/" },
-        { name: "Firmware Management", href: "/" },
-        { name: "IP Address Management", href: "/" },
-        { name: "Custom Portal", href: "/" },
-        { name: "Custom Insights", href: "/" },
-        { name: "Custom Data Center Solutions", href: "/" },
+        { name: "Monitoring Devices", href: "/dc-management/monitoring" },
+        { name: "Asset Tracking", href: "/dc-management/asset-track" },
+        { name: "Network Management", href: "/dc-management/" },
+        { name: "Change Management", href: "/dc-management/" },
+        { name: "Colocation Management", href: "/dc-management/" },
+        { name: "Management", href: "/dc-management/" },
+        { name: "Firmware Management", href: "/dc-management/" },
+        { name: "IP Address Management", href: "/dc-management/" },
+        { name: "Custom Portal", href: "/dc-management/" },
+        { name: "Custom Insights", href: "/dc-management/" },
+        { name: "Custom Data Center Solutions", href: "/dc-management/" },
       ],
     },
     {
       label: "Intelligence Solutions",
       links: [
-        { name: "Digital Twin", href: "/design" },
-        { name: "Development", href: "/development" },
-        { name: "Consulting", href: "/consulting" },
+        { name: "Digital Twin", href: "/intelligence/digital-twins" },
+        { name: "Smart Power Mapping", href: "/intelligence" },
+        { name: "Predictive Failure and Alerting", href: "/intelligence" },
+        { name: "Smart Control Systems", href: "/intelligence" },
+        { name: "Automated Discovery", href: "/intelligence" },
       ],
     },
     {
       label: "Data Center Compliance",
       links: [
-        { name: "Company", href: "/company" },
-        { name: "Team", href: "/team" },
+        { name: "DCOI Compliance", href: "/compliance/dcoi" },
+        { name: "(EU) 2023/1791", href: "/compliance" },
+        { name: "EN 50600", href: "/compliance" },
+        { name: "LEED Certification", href: "/compliance" },
+        { name: "ISO/IEC 30134-2", href: "/compliance" },
+        { name: "(EPA) ENERGY STAR", href: "/compliance" },
+        {
+          name: "European Commission Joint Research Centre (JRC)",
+          href: "/team",
+        },
       ],
     },
     {
       label: "Sustainability Blog",
       links: [
-        { name: "Support", href: "/support" },
-        { name: "Feedback", href: "/feedback" },
+        { name: "Energy Efficiency", href: "/energy-solutions" },
+        { name: "Stranded Energy Map", href: "/energy-solutions" },
+        { name: "Environmental Product Declaration", href: "/energy-solutions" },
+        { name: "Renewables Integration", href: "/energy-solutions" },
+        { name: "Power Resource Management", href: "/energy-solutions" },
       ],
     },
-  ]
+  ];
 
 
 export default function MobileMenu() {

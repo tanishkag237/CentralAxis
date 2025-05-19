@@ -156,20 +156,30 @@ export default function AssetTracking() {
       <GridSection className="text-md" items={gridItems} />
     </div>
 
-   <VideoBanner
-  videoSrc="/assets/banner-video.mp4"
-  heading="Simplify Your IT Operations"
-  subtext="Experience automation, speed, and security in a single platform."
-  position="center"
-  buttonContent={
-    <Link
-      href="/book-demo"
-      className="inline-block px-5 py-2 bg-white text-black rounded-md hover:bg-gray-200 transition font-medium border border-black"
-    >
-      Book a Demo
-    </Link>
-  }
-/>
+    <VideoBanner
+             videoSrc="/dc-mgmt/02asset-mgt.mp4"
+             heading={
+               <>
+                 <p className="text-white text-3xl mb-3">
+                   Transform Your Asset Management Today
+                 </p>
+               </>
+             }
+             subtext={
+               <p>
+                Experience the difference that intelligent, automated asset management can make for your data center
+               </p>
+             }
+             position="center"
+             buttonContent={
+               <a
+                 href="/get-started"
+                 className="inline-block px-6 py-3 bg-white text-black rounded-sm hover:bg-gray-200 transition font-light border border-black"
+               >
+                 Schedule a Demo
+               </a>
+             }
+           />
 
 
 

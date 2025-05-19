@@ -40,10 +40,10 @@ export default function Home() {
 
   <div className="flex md:flex-col flex-row items-center justify-center gap-2">
     <div className="bg-[rgb(135,80,237)] hover:bg-[rgb(135,76,260)] text-white p-1 px-3 font-thin text-sm rounded-[2rem] transition-colors duration-200 ease-in-out text-center">
-      <Link href="/">Set up a Time</Link>
+      <Link href="https://calendly.com/margarita-centralaxis/30min?month=2025-05">Set up a Time</Link>
     </div>
     <div className="bg-[rgb(24,24,27)] border border-zinc-800 hover:bg-[rgb(39,39,42)] text-white p-1 px-3 font-thin text-sm rounded-[2rem] transition-colors duration-200 ease-in-out text-center">
-      <Link href="/">Learn More</Link>
+      <Link href="https://www.centralaxis.com/learn-more">Learn More</Link>
     </div>
   </div>
 </div>
