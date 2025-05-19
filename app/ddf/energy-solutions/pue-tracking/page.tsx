@@ -30,16 +30,14 @@ export default function PUETracking() {
             videoSrc="https://www.centralaxis.com/background.webm"
             heading={
               <>
-                <p className="text-white text-2xl text-start mb-2">
-                  Navigate EU Regulation Compliance with CentralAxis
+                <p className="text-white text-2xl text-start font-medium mb-2">
+                  Optimize Your Data Center Efficiency
                 </p>
               </>
             }
             subtext={
               <p className="text-start">
-                Ready to transform regulatory complexity into a competitive
-                advantage? Let CentralAxis guide you through EU Data Centre
-                Regulation compliance.
+                Ready to improve your data center's efficiency metrics? Let CentralAxis help you implement comprehensive monitoring and optimization strategies for PUE, DPPE, and DCEP.
               </p>
             }
             position="top-left"
@@ -48,7 +46,7 @@ export default function PUETracking() {
                 href="https://calendly.com/margarita-centralaxis/30min"
                 className="inline-block px-6 py-2 text-white text-left rounded-sm font-light border border-black"
               >
-                Schedule Compliance Consultation
+                Schedule a Consultation
               </a>
             }
           />

@@ -1,121 +1,142 @@
 
+import Image from "next/image";
 import GridSection from "@/components/GridSection";
 import VideoBanner from "@/components/VideoBanner";
 
 const gridItems = [
   {
-    title: "Remote Power Control",
+    title: "Unified Change Oversight",
     points: [
-      "Power cycle servers and racks remotely",
-      "Integrate with smart PDUs and UPS systems",
-      "Enforce safety protocols and approval workflows",
+      "Real-time status tracking of all open change requests",
+      "Central dashboard for managing work across sites",
+      "Audit trail of changes with detailed timestamps",
     ],
   },
   {
-    title: "Environmental Automation",
+    title: "ITSM & CMDB Sync",
     points: [
-      "Automate cooling adjustments based on sensor data",
-      "Link temperature/humidity changes to control actions",
-      "Improve efficiency while avoiding human error",
+      "Consolidated data shared between DC & IT CMDBs",
+      "Eliminate manual entry with bidirectional syncing",
+      "Supports standard and custom field mappings",
     ],
   },
   {
-    title: "Access & Entry Management",
+    title: "Data Accuracy & Visibility",
     points: [
-      "Control badge access by schedule, role, or request",
-      "Digitally authorize visitors and on-site work",
-      "Integrates with facility security systems",
-    ],
-  },
-  {
-    title: "Policy-Based Workflows",
-    points: [
-      "Automate tasks based on thresholds or ticket status",
-      "Trigger control actions from ITSM or CMDB events",
-      "Audit every control action with logs and approvals",
-    ],
-  },
-  {
-    title: "Integration with Smart Hands",
-    points: [
-      "Assign tasks to on-site teams from the control portal",
-      "Link control actions to change tickets or service orders",
-      "Track and verify execution in real time",
-    ],
-  },
-  {
-    title: "Secure Control Infrastructure",
-    points: [
-      "Encrypted, role-based access to all control features",
-      "Multi-factor control approval for sensitive operations",
-      "Detailed audit trail for compliance and accountability",
+      "Ensure all stakeholders see the same data",
+      "Improve decision-making with consistent updates",
+      "Reduce errors with automated verification processes",
     ],
   },
 ];
 
 
-export default function ControlSystems() {
+export default function AssetTracking() {
   return (
     <>
-      <div className="lg:px-16 text-white pt-8 md:px-7 sm:px-5 xs:px-5">
-        <h1 className="text-4xl font-bold mb-4 text-center">
-          Smart Control Systems for Modern Data Centers
+      <div className="lg:px-20 text-white pt-8 md:px-7 sm:px-5 xs:px-5">
+        <h1 className="text-3xl font-bold mb-4 text-center">
+         Intelligent Change Management
         </h1>
-        {/* Video Block */}
-        <div className="w-full  p-4">
-          <video
-            src="https://www.centralaxis.com/landing/controls.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full object-cover rounded"
-          />
+
+        {/* First Section */}
+        <div className="flex flex-wrap justify-around text-white bg-black px-4 py-8">
+          {/* Video Block */}
+          <div className="w-full md:w-1/2 p-4">
+            <video
+              src="https://www.centralaxis.com/landing/change-management.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full object-cover rounded"
+            />
+          </div>
+
+          {/* Text Block */}
+          <div className="w-full md:w-1/2 pt-10 p-4">
+            <h2 className="text-2xl font-medium mb-3">
+              Change Made Easy
+            </h2>
+            <p className="font-light text-lg pt-2 pb-4">
+              CentralAxis simplifies change management with a built-in work order system that seamlessly guides tasks from creation to completion. Empower your data center team with automated workflows, smart routing, and complete visibility.
+            </p>
+            <ul className="list-disc pl-6 font-light text-lg leading-relaxed space-y-3 mb-8">
+              <li>Streamlined request-to-complete change process</li>
+  <li>Integrated work order creation, approval & fulfillment</li>
+  <li>Minimized swivel-chair management and inbox chaos</li>
+            </ul>
+          </div>
         </div>
-
-        {/* Text Block */}
-        <div className="m-5 mt-12 text-center font-medium lg:pl-25 lg:pr-25">
-            <h1 className="text-2xl">Take Control — From Anywhere</h1>
-            <p className="text-[17px] p-5  lg:px-10 font-light">With CentralAxis Smart Control Systems, you get full command over key infrastructure components — remotely, securely, and intelligently. From power cycling and access control to environmental automation and service requests, every control is built to reduce response times and operational overhead.
-
-</p>
-        </div>
-
-
 
         {/* Second Section */}
-       <div className="pt-8">
-             <h1 className="text-3xl font-semibold text-center">What Makes CentralAxis Different</h1>
-          <div className="lg:px-6 py-5 md:px-2 bg-black text-white">
-      <GridSection className="md:grid-cols-2 text-[15px] md:p-3 lg:p-4" items={gridItems} />
-    </div>
-        </div>
- 
-
-        <VideoBanner
-          videoSrc="https://www.centralaxis.com/landing/controls.mp4"
-          heading={
-            <>
-              <p className="text-white text-3xl mb-3">
-               Control Smarter. Operate Safer.
-              </p>
-            </>
-          }
-          subtext={
-            <p>
-             CentralAxis brings smart control to every layer of your data center — with the precision, speed, and accountability you need to operate at scale.
+        <h1 className="text-3xl font-medium mb-4  text-center">
+          Visual, Accurate Work Orders
+        </h1>
+        <div className="flex flex-wrap justify-around text-white bg-black px-2 py-2">
+          {/* Text Block */}
+          <div className="w-full md:w-1/2 p-4">
+            <p className="font-light text-lg pt-2 pb-4">
+             Deliver clarity to every team member with visual work orders that contain everything needed to get the job done right—on time and the first time.
             </p>
-          }
-          position="center"
-          buttonContent={
-            <a
-              href="https://calendly.com/margarita-centralaxis/30min"
-              className="inline-block px-6 py-3 bg-white text-black rounded-sm hover:bg-gray-200 transition font-medium border border-black"
-            >
-              Schedule a Demo
-            </a>
-          }
-        />
+            <ul className="list-disc pl-6 font-light text-lg leading-relaxed space-y-3 mb-8">
+             <li>Visual rack elevations and diagrams included</li>
+  <li>Smart routing to appropriate teams based on task type</li>
+  <li>Complete, accurate working instructions pre-filled</li>
+  <li>Work quality ensured through standardized templates</li>
+            </ul>
+          </div>
+
+          {/* Image Block */}
+ <div className="w-full md:w-1/2 p-4 bg-white rounded-xl flex justify-center">
+  <Image
+    src="/images/14change-request.png"
+    alt="Automated Discovery Illustration"
+    width={500}
+    height={300}
+    className="rounded-lg w-full max-w-[500px] h-auto"
+  />
+</div>
+
+
+
+        </div>
+
+        {/* third section */}
+        <h2 className="text-2xl font-medium mb-3 text-center mt-10">
+              Monitor, Manage & Report Across Systems
+            </h2>
+         <div className="px-6 py-10  bg-black text-white">
+      <GridSection className="text-md" items={gridItems} />
+    </div>
+
+    <VideoBanner
+             videoSrc="https://www.centralaxis.com/landing/change-management.mp4"
+             heading={
+               <>
+                 <p className="text-white text-3xl mb-3">
+                  Optimize Your Change Management Workflow
+                 </p>
+               </>
+             }
+             subtext={
+               <p>
+                Empower your data center operations team with intelligent, integrated change workflows.
+               </p>
+             }
+             position="center"
+             buttonContent={
+               <a
+                 href="https://calendly.com/margarita-centralaxis/30min"
+                 className="inline-block px-6 py-3 bg-white text-black rounded-sm hover:bg-gray-200 transition font-light border border-black"
+               >
+                 Schedule a Demo
+               </a>
+             }
+           />
+
+
+
       </div>
     </>
   );

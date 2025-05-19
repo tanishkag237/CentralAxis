@@ -20,9 +20,9 @@ export default function DropdownMenu() {
         { name: "Monitoring Devices", href: "/ddf/dc-management/monitoring" },
         { name: "Asset Tracking", href: "/ddf/dc-management/asset-track" },
         { name: "Network Management", href: "/ddf/dc-management/networking" },
-        { name: "Change Management", href: "/ddf/dc-management/" },
-        { name: "Colocation Management", href: "/ddf/dc-management/" },
-        { name: "Data Center Planner", href: "/ddf/dc-management/" },
+        { name: "Change Management", href: "/ddf/dc-management/change-mgmt" },
+        { name: "Colocation Management", href: "/ddf/dc-management/coloc-mgmt" },
+        { name: "Data Center Planner", href: "/ddf/dc-management/dcc" },
         { name: "Firmware Management", href: "/ddf/dc-management/firm" },
         { name: "IP Address Management", href: "/ddf/dc-management/ipam" },
         { name: "Custom Portal", href: "/ddf/dc-management/customer-portal" },
@@ -86,7 +86,7 @@ export default function DropdownMenu() {
     <div className="relative z-50 w-full">
       {/* Mobile Menu Toggle */}
       <div className="md:hidden flex items-center justify-between px-4 py-3 bg-black/60 text-white">
-        {/* <span className="font-semibold">Menu</span> */}
+
         <button onClick={() => setMobileOpen(!mobileOpen)}>
           <AlignJustify />
         </button>
@@ -94,10 +94,10 @@ export default function DropdownMenu() {
 
       {/* Mobile Dropdown Content */}
       {mobileOpen && (
-        <div className="bg-black text-white p-4 space-y-4 md:hidden">
+        <div className="bg-black bg-opacity-40  text-white p-4 space-y-4 md:hidden">
           {menus.map((menu) => (
             <div key={menu.label}>
-              <h3 className="text-sm font-semibold mb-2">{menu.label}</h3>
+              <h3 className="text-sm  font-semibold mb-2">{menu.label}</h3>
               <ul className="space-y-1 pl-2">
                 {menu.links.map((link) => (
                   <li key={link.name}>
