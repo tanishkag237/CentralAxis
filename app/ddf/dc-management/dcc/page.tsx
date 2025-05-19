@@ -1,5 +1,4 @@
 
-import GridSection from "@/components/GridSection";
 import VideoBanner from "@/components/VideoBanner";
 
 
