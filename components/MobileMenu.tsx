@@ -70,11 +70,12 @@ export default function MobileMenu() {
   return (
     <>
    
-    <div className="bg-black text-white p-6 space-y-6 lg:hidden z-30 sticky">
+   <div className="fixed top-17 left-0 w-full h-[35%] bg-black/90 text-white p-6 space-y-6 lg:hidden z-50 overflow-y-auto">
+
       {menus.map((menu, index) => (
         <div key={menu.label}>
           <button
-            className="flex  items-center w-full text-left text-lg font-medium text-gray-300 transition-colors"
+            className="flex  items-center w-full h-full text-left text-lg font-medium text-gray-300 transition-colors"
             onClick={() => toggleMenu(index)}
           >
             {menu.label}

@@ -1,6 +1,6 @@
 import Badge from "@/components/Badge";
 import DRMCards from "@/components/DrmCards";
-import { Mail } from "lucide-react";
+import { Flower, Mail, Network, Smile, Sparkle } from "lucide-react";
 
 export default function DrmCardsSection() {
   return (
@@ -35,26 +35,26 @@ export default function DrmCardsSection() {
             subtext={
               "From design, sourcing, supply, manufacturing, and deployment - our system automates the entire process."
             }
-            icon={<Mail />}
+            icon={<Sparkle />}
           />
           <DRMCards
             title={"Networking"}
             subtext={
               "Ensure that your networking infrastructure is always in place and ready to scale with your deployments."
             }
-            icon={<Mail />}
+            icon={<Network />}
           />
           <DRMCards
             title={"Firmware Versioning"}
             subtext={
               "Ensure that your firmware is always up to date and secure with our automated versioning system."
             }
-            icon={<Mail />}
+            icon={<Smile />}
           />
           <DRMCards
             title={"Digital Twins"}
             subtext={"Plan capacity intelligently with our digital twin technology."}
-            icon={<Mail />}
+            icon={<Flower />}
           />
         </div>
       </div>

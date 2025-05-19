@@ -26,7 +26,7 @@ export default function FAQ(){
 
 return(
     <>
-    <div className="text-center  p-14 justify-start md:w-auto">
+    <div className="text-center  lg:p-14 justify-start md:w-auto">
         <div className="flex justify-center mb-2">
           <Badge text={"FAQs"} />
         </div>
