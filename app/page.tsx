@@ -1,7 +1,4 @@
 import Badge from "@/components/Badge";
-import FeaturesLeft from "@/components/FeatureBox";
-import Features from "@/components/FeatureBox";
-import Image from "next/image";
 import HomeScreen from "../data/featurebox";
 import Link from "next/link";
 import DrmCards from "@/data/drmCards";
@@ -22,7 +19,7 @@ export default function Home() {
           Modernizing the Digital Backbone
         </h1>
         <p className="text-[rgb(113,113,122)] font-thin text-lg">
-          Data center software (DCIM, BMS and EPMS) has stagnated. We've built a
+          Data center software (DCIM, BMS and EPMS) has stagnated. We&apos;ve built a
           better way.
         </p>
       </div>
@@ -31,7 +28,7 @@ export default function Home() {
     <div className="bg-[rgba(124,58,237,0.15)] p-5 m-5 rounded-xl flex flex-col md:flex-row md:items-center justify-between mb-25 gap-4">
   <div className="pl-3 pt-3 pb-3 md:text-left text-center">
     <h1 className="text-white text-3xl p-1">
-      We've Built the Future of Data Centers
+      We&apos;ve Built the Future of Data Centers
     </h1>
     <h2 className="text-zinc-400 text-xl p-1">
       Contact our team for a demo

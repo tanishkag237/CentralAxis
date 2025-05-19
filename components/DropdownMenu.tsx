@@ -11,7 +11,6 @@ import {
   Content,
 } from "@radix-ui/react-navigation-menu";
 import { AlignJustify } from "lucide-react";
-import { cn } from "@/lib/utils";
 
 export default function DropdownMenu() {
   const menus = [
