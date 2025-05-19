@@ -110,7 +110,7 @@ export default function ControlSystems() {
           position="center"
           buttonContent={
             <a
-              href="/get-started"
+              href="https://calendly.com/margarita-centralaxis/30min"
               className="inline-block px-6 py-3 bg-white text-black rounded-sm hover:bg-gray-200 transition font-medium border border-black"
             >
               Schedule a Demo

@@ -45,7 +45,7 @@ export default function PUETracking() {
             position="top-left"
             buttonContent={
               <a
-                href="/get-started"
+                href="https://calendly.com/margarita-centralaxis/30min"
                 className="inline-block px-6 py-2 text-white text-left rounded-sm font-light border border-black"
               >
                 Schedule Compliance Consultation

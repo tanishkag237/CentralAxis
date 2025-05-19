@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Monitor() {
   return (
     <>
-      <div className="lg:px-20 text-white pt-8 md:px-7 sm:px-5 xs:px-5">
+      <div className="lg:px-20 text-white pt-8 md:px-7 sm:px-5 xs:px-5 p-4">
         <h1 className="text-4xl font-bold mb-4">
           Infrastructure Monitoring & Asset Management
         </h1>

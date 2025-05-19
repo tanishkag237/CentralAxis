@@ -46,7 +46,7 @@ const LogoSlider = () => {
         }
 
         .animate-scroll {
-          animation: scroll 30s linear infinite;
+          animation: scroll 25s linear infinite;
         }
       `}</style>
     </div>

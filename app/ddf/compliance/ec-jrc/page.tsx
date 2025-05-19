@@ -1,6 +1,5 @@
 import VideoBanner from "@/components/VideoBanner";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ECJRC() {
   return (
@@ -121,7 +120,7 @@ export default function ECJRC() {
           position="top-left"
           buttonContent={
             <a
-              href="/get-started"
+              href="https://calendly.com/margarita-centralaxis/30min"
               className="inline-block px-6 py-3  text-white rounded-sm transition font-light border border-black"
             >
               Schedule a Consultation
@@ -129,7 +128,7 @@ export default function ECJRC() {
           }
           buttonContent2={
             <a
-              href="/get-started"
+              href="/"
               className="inline-block px-7 py-2 bg-white text-black rounded-sm hover:bg-gray-200 transition font-light border border-black"
             >
               Request JRC Compliance Guide

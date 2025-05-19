@@ -48,19 +48,41 @@ export default function Home() {
 {/* -------------- */}
 <DrmCards/>
 
-{/* <div
-  className=" w-[90%] h-auto] bg-cover bg-center bg-no-repeat md:w-auto -z-10"
-  style={{ backgroundImage: "url('images/background.png')" }}
->
-  <div className="absolute inset-0 bg-black bg-opacity-40 z-20">
-<div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
-    <h1 className="text-3xl md:text-5xl font-bold mb-2">Book a Demo</h1>
-    <p className="text-lg md:text-xl font-light">See how CentralAxis can revolutionize your data center operations.</p>
-  </div>
+ <section className="relative w-full pl-8 pr-8 overflow-hidden rounded-xl mt-18 ">
+            <div className="relative w-full h-auto rounded-lg overflow-hidden">
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute top-0 left-0 w-full h-full object-cover"
+              >
+                <source
+                  src="https://www.centralaxis.com/background.webm"
+                  type="video/webm"
+                />
+                Your browser does not support the video tag.
+              </video>
 
-  </div>
-  
-</div> */}
+              <div className="absolute inset-0 bg-black/70 z-10" />
+
+              <div className="relative z-20 flex flex-col items-center justify-center px-6 py-12 text-white">
+                <h1 className="text-2xl md:text-2xl font-semibold mb-2">
+                  Book a Demo
+
+                </h1>
+                <p className="text-xl md:text-base max-w-3xl font-light mb-4">
+                  See how CentralAxis can revolutionize your data center operations.
+                </p>
+                <Link
+                  href="https://calendly.com/margarita-centralaxis/30min?month=2025-05"
+                  className="inline-block text-black bg-white px-5 py-2  rounded-lg text-md font-medium transition-colors"
+                >
+                  Schedule Now
+                </Link>
+              </div>
+            </div>
+          </section>
 
 <FAQ/>
 

@@ -57,7 +57,7 @@ const gridItems = [
 export default function AssetTracking() {
   return (
     <>
-      <div className="lg:px-16 text-white pt-8 md:px-7 sm:px-5 xs:px-5">
+      <div className="lg:px-16 text-white pt-8 md:px-7 sm:px-5 xs:px-5 p-4">
         <h1 className="text-4xl font-bold mb-4 text-center">
           Real-Time Digital Twin of Your Data Center
         </h1>
@@ -108,7 +108,7 @@ export default function AssetTracking() {
           position="center"
           buttonContent={
             <a
-              href="/get-started"
+              href="https://calendly.com/margarita-centralaxis/30min"
               className="inline-block px-6 py-3 bg-white text-black rounded-sm hover:bg-gray-200 transition font-medium border border-black"
             >
               Schedule a Demo

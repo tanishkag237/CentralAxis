@@ -102,7 +102,7 @@ export default function Leed() {
           CentralAxis offers comprehensive solutions to help data centers
           achieve and maintain LEED certification:
         </h3>
-        <ul className="list-disc list-inside text-sm font-light space-y-2">
+        <ul className="list-disc list-inside text-md font-light space-y-2">
           <li>Energy monitoring and optimization tools</li>
           <li>Water usage tracking and efficiency recommendations</li>
           <li>Waste management and recycling program support</li>
@@ -152,7 +152,7 @@ export default function Leed() {
                   }
                   buttonContent2={
                     <a
-                      href="/get-started"
+                      href="https://calendly.com/margarita-centralaxis/30min"
                       className="inline-block px-7 py-2 bg-white text-black rounded-sm hover:bg-gray-200 transition font-light border border-black"
                     >
                      Request LEED Info Pack

@@ -125,7 +125,7 @@ export default function PowResMgmt() {
                   position="top-left"
                   buttonContent={
                     <a
-                      href="/get-started"
+                      href="https://calendly.com/margarita-centralaxis/30min"
                       className="inline-block px-6 py-3  text-white rounded-sm transition font-light border border-black"
                     >
                       Schedule a Power Optimization Consultation
