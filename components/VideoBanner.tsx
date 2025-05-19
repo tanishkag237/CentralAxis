@@ -9,6 +9,7 @@ interface VideoBannerProps {
   subtext: React.ReactNode;
   position?: "center" | "top" | "bottom" | "top-left" | "bottom-right";
   buttonContent: React.ReactNode;
+  buttonContent2?: React.ReactNode;
 }
 
 const positionStyles: Record<string, string> = {
@@ -25,6 +26,7 @@ export default function VideoBanner({
   subtext,
   position = "center",
   buttonContent,
+  buttonContent2,
 }: VideoBannerProps) {
   return (
     <section className="relative w-full overflow-hidden rounded-xl">
@@ -52,6 +54,7 @@ export default function VideoBanner({
             <div className="text-2xl md:text-2xl font-semibold mb-2">{heading}</div>
             <div className="text-sm md:text-base max-w-5xl font-light mb-3">{subtext}</div>
             {buttonContent}
+            {buttonContent2}
           </div>
         </div>
       </div>

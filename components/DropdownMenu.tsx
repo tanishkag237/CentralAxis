@@ -25,10 +25,10 @@ export default function DropdownMenu() {
         { name: "Colocation Management", href: "/ddf/dc-management/" },
         { name: "Management", href: "/ddf/dc-management/" },
         { name: "Firmware Management", href: "/ddf/dc-management/" },
-        { name: "IP Address Management", href: "/ddf/dc-management/" },
-        { name: "Custom Portal", href: "/ddf/dc-management/" },
-        { name: "Custom Insights", href: "/ddf/dc-management/" },
-        { name: "Custom Data Center Solutions", href: "/ddf/dc-management/" },
+        { name: "IP Address Management", href: "/ddf/dc-management/ipam" },
+        { name: "Custom Portal", href: "/ddf/dc-management/customer-portal" },
+        { name: "Custom Insights", href: "/ddf/dc-management/insights" },
+        { name: "Custom Data Center Solutions", href: "/ddf/dc-management/custom-solutions" },
       ],
     },
     {
@@ -52,7 +52,7 @@ export default function DropdownMenu() {
         { name: "(EPA) ENERGY STAR", href: "/ddf/compliance/epa" },
         {
           name: "European Commission Joint Research Centre (JRC)",
-          href: "/team",
+          href: "/ddf/compliance/ec-jrc",
         },
       ],
     },
@@ -60,10 +60,10 @@ export default function DropdownMenu() {
       label: "Sustainability Blog",
       links: [
         { name: "Energy Efficiency", href: "/ddf/energy-solutions/pue-tracking" },
-        { name: "Stranded Energy Map", href: "/ddf/energy-solutions" },
-        { name: "Environmental Product Declaration", href: "/ddf/energy-solutions" },
-        { name: "Renewables Integration", href: "/ddf/energy-solutions" },
-        { name: "Power Resource Management", href: "/ddf/energy-solutions" },
+        { name: "Stranded Energy Map", href: "/ddf/energy-solutions/energy-map" },
+        { name: "Environmental Product Declaration", href: "/ddf/energy-solutions/epd" },
+        { name: "Renewables Integration", href: "/ddf/energy-solutions/renewables-integration" },
+        { name: "Power Resource Management", href: "/ddf/energy-solutions/prm" },
       ],
     },
   ];
