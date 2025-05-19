@@ -1,5 +1,5 @@
 import VideoBanner from "@/components/VideoBanner";
-import Link from "next/link";
+
 
 export default function PowResMgmt() {
   return (

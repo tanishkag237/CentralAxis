@@ -72,7 +72,7 @@ export default function Firm() {
         Benefits of CentralAxis Firmware and OS Management
 
         </h1>
-        <ul className="list-disc p-2 list-inside text-md font-light space-y-2 p-2">
+        <ul className="list-disc p-2 list-inside text-md font-light space-y-2 ">
   <li>Federal Investment Tax Credit (ITC) for solar installations</li>
   <li>Production Tax Credits (PTC) for wind energy systems</li>
   <li>Accelerated depreciation benefits (MACRS)</li>
@@ -84,7 +84,7 @@ export default function Firm() {
  <h1 className="text-2xl pb-5 pt-9 font-medium">
        Our Firmware and OS Management Process
         </h1>
-<ol className="list-decimal p-2 list-inside text-md font-light space-y-2 p-2">
+<ol className="list-decimal p-2 list-inside text-md font-light space-y-2">
   <li>Significant reduction in operational energy costs</li>
   <li>Enhanced energy independence and reliability</li>
   <li>Substantial decrease in carbon footprint and environmental impact</li>
